@@ -15,6 +15,8 @@ h2{
   border: 1px solid black;
   position: relative;
   top:-20px;
+  width: 40%;
+  text-align: center;
 }
 
 p{
@@ -54,6 +56,8 @@ p{
 #sushi h2{
   background-color: #FFC107;
 }
+
+
 
 /* Simple Responsive Framework. */
 .row {
@@ -150,4 +154,8 @@ p{
   .col-md-12 div{
     width: 95%;
   }
+
+  .col-md-12 h2{
+  width: 19%;
+}
 }
